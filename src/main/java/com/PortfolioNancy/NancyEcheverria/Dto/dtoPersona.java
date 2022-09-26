@@ -11,18 +11,18 @@ public class dtoPersona {
     @NotBlank
     private String img;
     @NotBlank
-    private String portada;
+    private String animacion;
     @NotBlank String descripcion;
     @NotBlank String ubicacion;
 
     public dtoPersona() {
     }
 
-    public dtoPersona(String nombre, String apellido, String img, String portada,String descripcion, String ubicacion) {
+    public dtoPersona(String nombre, String apellido, String img, String animacion,String descripcion, String ubicacion) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.img = img;
-        this.portada = portada;
+        this.animacion = animacion;
         this.descripcion = descripcion;
         this.ubicacion = ubicacion;
     }
@@ -51,12 +51,12 @@ public class dtoPersona {
         this.img = img;
     }
 
-    public String getPortada() {
-        return portada;
+    public String getAnimacion() {
+        return animacion;
     }
 
-    public void setPortada(String portada) {
-        this.portada = portada;
+    public void setAnimacion(String animacion) {
+        this.animacion = animacion;
     }
 
     public String getUbicacion() {

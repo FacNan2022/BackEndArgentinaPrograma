@@ -29,7 +29,7 @@ public class Persona {
     
     
     @NotNull
-    private String portada;
+    private String animacion;
     
     @NotNull
     private String descripcion;
